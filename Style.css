@@ -4,26 +4,49 @@
     font-optical-sizing: auto;
     color: beige;
 }
+
 .itenscabecalio{
     display: flex;
-    align-items: center;
     justify-content: end;
+    align-items: center;
     list-style-type: none;
     padding: 20px 0;
 }
+
 .itenscabecalio .itenlistacabecalio{
     text-decoration: none;
     margin: 50px;
+    transition: 0.8s;
+
 }
+
 .itenscabecalio a:hover{
     color: rgb(0, 255, 0);
+
 }
+
+/*configuração do icone de alteração de tema*/
+.iconemodosite {
+    height: 40px;
+    width: 50px;
+    border: none;
+    transition: 0.8s;
+
+}
+.iconemodosite:hover {
+    transform: scale(1.2);
+
+}
+
+#iconebotao{
+    width: 100%;
+    height: 100%;
+}
+
+
 
 .sobremimcomponentes{
     display: flex;
-}
-.sobremimcomponentes p{
-    padding: 20px;
 }
 
 
